@@ -1,0 +1,287 @@
+// _landing.scss
+
+.landing-section {
+  background: url('../img/backgrounds/landing.png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  color: $white;
+
+  .cta-btn {
+    margin: 40px 10% 0 0;
+    display: inline-block;
+    float: right;
+  }
+
+  .landing-content {
+    text-align: center;
+    padding-top: 150px;
+
+    h1 {
+      margin-bottom: 9px;
+    }
+  }
+
+  .landing-images {
+    .blueplanet-overlap {
+      width: 250px;
+      position: relative;
+      bottom: -240px;
+      right: 80px;
+      display: block;
+    }
+    .moon {
+      margin: 0 auto;
+      width: 720px;
+      display: block;
+      position: relative;
+      top: -245px;
+      left: 5px;
+    }
+  }
+}
+
+// What We Offer Section
+.wwo-section {
+  background: url('../img/backgrounds/whatweoffer.png') no-repeat center center;
+  background-size: cover;
+  height: 2330px;
+
+  // .wwo-bgline {
+  //   position: absolute;
+  //   left: 0;
+  //   right: 0;
+  //   margin: auto;
+  //   height: 2400px;
+  // }
+
+  h1.wwo-header {
+    color: $purple;
+    text-align: center;
+    font-size: 110px;
+    padding-top: 440px;
+    margin: 0;
+  }
+  .presentation {
+    width: 80%;
+    margin: 0 10%;
+
+    .rocket-build {
+      width: 110%;
+      padding-top: 260px;
+    }
+    .presentation-text {
+      padding-top: 250px;
+
+      h3 {
+        color: $purple;
+      }
+    }
+  }
+
+  .academy {
+    width: 80%;
+    margin: 0 10%;
+
+    .astronaut {
+      width: 80%;
+      margin-left: 80px;
+    }
+    .academy-text {
+      padding-top: 250px;
+
+      h3 {
+        color: $purple;
+      }
+    }
+  }
+}
+
+// Our Big Idea Section (obi)
+.obi-section {
+  background: url('../img/backgrounds/ourbigidea.png') no-repeat center center;
+  background-size: cover;
+  height: 2075px;
+
+  h1.obi-header {
+    color: $white;
+    text-align: center;
+    font-size: 110px;
+    padding-top: 400px;
+    margin: 0;
+  }
+
+  .obi-content {
+    width: 90%;
+    margin: 0 10% 0 0;
+
+    .obi-image {
+      .spaceship {
+        width: 90%;
+        margin: 300px 0% 0 15%;
+      }
+    }
+    .obi-text {
+      color: $white;
+
+      h3 {
+        text-transform: uppercase;
+        margin: 360px 30px 0 0;
+      }
+      h3.lowercase {
+        text-transform: none;
+        margin: 80px 30px 30px 0;
+      }
+    }
+  }
+}
+
+
+// Why Us section
+.why-us-section {
+  background: url('../img/backgrounds/whyus.png') no-repeat center center;
+  background-size: cover;
+  height: 2270px;
+
+  h1.why-us-header{
+    font-size: 110px;
+    color: $purple;
+    padding: 350px 0% 0 20%;
+    margin: 0;
+  }
+
+  .why-us-content {
+    width: 90%;
+    margin: 0 5%;
+
+    .external {
+      padding: 250px 0 0 15%;
+
+      h3 {
+        color: $purple;
+      }
+    }
+    .img-alien {
+      .alien {
+        max-width: 350px;
+        margin-left: 100px;
+      }
+    }
+
+    .img-saturn {
+      margin-top: 50px;
+    }
+    .expertise {
+      margin-top: 80px;
+      padding-right: 10%;
+
+      h3 {
+        color: $purple;
+      }
+    }
+
+    .english {
+      padding: 100px 80px 0 15%;
+
+      h3 {
+        color: $purple;
+      }
+    }
+    .station {
+      width: 550px;
+    }
+  }
+
+  .cta-btn {
+    margin: 150px auto;
+    display: table;
+  }
+}
+
+
+// Who We Are Section (wwa)
+.wwa-section {
+  background: url('../img/backgrounds/whoweare.png') no-repeat center center;
+  background-size: cover;
+  height: 2200px;
+  color: $white;
+
+  h1.wwa-header {
+    font-size: 110px;
+    padding: 340px 0 0 0;
+    text-align: center;
+  }
+
+  .wwa-content {
+    padding-top: 220px;
+    width: 80%;
+    margin: 0 10%;
+
+    .row {
+      margin-bottom: 50px;
+
+      .wwa-image {
+        width: auto;
+        max-width: 330px;
+        float: right;
+      }
+      .wwa-description {
+
+
+        ul {
+          list-style-type: "-";
+          padding: 0;
+
+          li {
+            margin: 0 0px 20px 8px;
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// Contact Section
+.contact-section {
+  background: url('../img/backgrounds/earth.png') no-repeat center center;
+  background-size: cover;
+  height: 1700px;
+
+  h2.contact-header {
+    margin: 0;
+    font-size: 90px;
+    text-transform: none;
+    padding: 300px 0 0 25%;
+    color: $purple;
+    z-index: 999;
+    position: relative;
+  }
+
+  img.img-rocket {
+    width: 300px;
+    position: relative;
+    right: -68%;
+    bottom: 20%;
+    z-index: 10;
+  }
+
+  .contact-content {
+    .earth {
+      img.img-earth {
+        position: absolute;
+        width: 150%;
+        top: -200px;
+      }
+    }
+    .contact-links {
+      .cta-btn {
+        display: inline-block;
+        width: 320px;
+        margin: 20px 0px 20px 80px;
+        position: relative;
+        top: -300px;
+      }
+    }
+  }
+}

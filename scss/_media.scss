@@ -1,0 +1,238 @@
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+    	.menu-toggle span:nth-child(4) { background-color: red !important; }
+
+      // Globals
+      h1 {
+        font-size: 140px !important;
+      }
+      h2, h1.wwo-header, h1.obi-header, h1.why-us-header, h1.wwa-header {
+        font-size: 100px !important;
+      }
+      h2.contact-header {
+        font-size: 80px !important;
+      }
+      h3, h3.sub-header {
+        font-size: 40px !important;
+      }
+      h4 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 24px;
+      }
+      li {
+        font-size: 22px;
+      }
+      .cta-btn {
+        font-size: 24px;
+      }
+
+      // Landing section
+      .landing-section {
+        .landing-images {
+          .blueplanet-overlap {
+            width: 200px;
+            bottom: -280px;
+          }
+          .moon {
+            top: -145px;
+            width: 650px;
+            left: 20px;
+          }
+        }
+      }
+
+
+      // What We Offer Section
+      .wwo-section {
+        height: 1940px;
+
+        // .wwo-bgline {
+        //   height: 250vh;
+        // }
+
+        h1.wwo-header {
+          padding-top: 370px;
+        }
+
+        .presentation {
+          width: 90%;
+          margin: 0 5%;
+
+          .no-padding-left {
+            padding-left: 0px;
+          }
+          .rocket-build {
+            width: 500px;
+            padding-top: 180px;
+          }
+
+          .presentation-text {
+            padding-top: 200px;
+          }
+        }
+
+        .academy {
+          width: 90%;
+          margin: 0 5%;
+
+          .academy-text {
+            padding-top: 150px;
+          }
+
+          .academy-img {
+            .astronaut {
+              width: 400px;
+              margin: 20px 0px 0 40px;
+            }
+          }
+        }
+      }
+
+
+      // Our Big Idea section
+      .obi-section {
+        height: 1735px;
+
+        h1.obi-header {
+          padding-top: 300px;
+        }
+
+        .obi-content {
+          width: 100%;
+          margin: 0;
+
+          .obi-image {
+            .spaceship {
+              width: 450px;
+              margin: 300px 0% 0 10%;
+            }
+          }
+          .obi-text {
+            padding: 0 50px;
+
+            h3 {
+              margin-top: 260px;
+            }
+          }
+        }
+      }
+
+      // Why Us Section
+      .why-us-section  {
+        height: 2035px;
+
+        h1.why-us-header {
+          padding-top: 300px;
+        }
+        .why-us-content {
+          .external {
+            padding-top: 220px;
+          }
+          .img-alien {
+            img.alien {
+              max-width: 300px;
+              margin-top: 40px;
+            }
+          }
+
+          .img-saturn {
+            margin-top: 100px;
+          }
+
+          .english {
+            padding: 100px 60px 0 15%;
+          }
+          .img-station {
+            img.station {
+                width: 480px;
+            }
+          }
+        }
+
+        .cta-btn {
+          margin: 100px auto;
+        }
+      }
+
+
+      // Who We Are Section
+      .wwa-section {
+        height: 2000px;
+
+        h1.wwa-header {
+          padding-top: 310px;
+        }
+
+        .wwa-content {
+          padding-top: 160px;
+
+          .row {
+            margin-bottom: 20px;
+
+            img.wwa-image {
+              max-width: 300px;
+              margin-top: 40px;
+              float: none;
+            }
+          }
+        }
+      }
+
+
+      // Contact Section
+      .contact-section {
+        height: 1450px;
+
+        h2.contact-header {
+          padding-top: 250px;
+        }
+
+        img.img-rocket {
+          width: 250px;
+          position: relative;
+          right: -70%;
+          bottom: 25%;
+        }
+
+        .contact-content {
+          .earth {
+              img.img-earth {
+              width: 150%;
+              top: -100px;
+            }
+          }
+          .contact-links {
+            .cta-btn {
+              top: -250px;
+              margin-left: 50px;
+            }
+          }
+        }
+      }
+    }
+
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+    	.menu-toggle span:nth-child(4) { background-color: blue !important; }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    	.menu-toggle span:nth-child(4) { background-color: green !important; }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+    	.menu-toggle span:nth-child(4) { background-color: yellow !important; }
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+      .menu-toggle span:nth-child(4) { background-color: pink !important; }
+    }

@@ -1,0 +1,96 @@
+// _globals.scss
+
+h1 {
+  font-family: 'Futura-Bold', sans-serif;
+  font-size: 155px;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: 'Futura-Bold';
+  font-size: 110px;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: 'Futura-Bold';
+  font-size: 50px;
+}
+h3.sub-header {
+  font-family: 'Futura-Medium';
+  font-size: 50px;
+}
+h4 {
+  font-family: 'Futura-Bold';
+  font-size: 26px;
+  text-transform: uppercase;
+}
+p {
+  font-family: 'Futura-Book';
+  font-size: 26px;
+  line-height: 30px;
+}
+li {
+  font-family: 'Futura-Book';
+  font-size: 24px;
+  line-height: 28px;
+}
+
+// CTA
+.cta-btn {
+  font-family: 'Futura-Bold';
+  font-size: 26px;
+  text-align: center;
+  color: $white;
+
+  border-radius: 50px;
+  padding: 15px 40px;
+  transition: .33s all ease-in-out;
+
+  background: rgba(202,27,94,1);
+  background: -moz-linear-gradient(left, rgba(202,27,94,1) 0%, rgba(52,13,93,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(202,27,94,1)), color-stop(100%, rgba(52,13,93,1)));
+  background: -webkit-linear-gradient(left, rgba(202,27,94,1) 0%, rgba(52,13,93,1) 100%);
+  background: -o-linear-gradient(left, rgba(202,27,94,1) 0%, rgba(52,13,93,1) 100%);
+  background: -ms-linear-gradient(left, rgba(202,27,94,1) 0%, rgba(52,13,93,1) 100%);
+  background: linear-gradient(to right, rgba(202,27,94,1) 0%, rgba(52,13,93,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ca1b5e', endColorstr='#340d5d', GradientType=1 );
+
+  &:hover {
+    color: $white;
+  }
+}
+
+
+// Footer
+footer {
+  background: url('../img/backgrounds/footer.png') no-repeat center center;
+  background-size: cover;
+  height: auto;
+
+  .footer-content {
+    text-align: center;
+    padding: 120px 0px;
+    color: $white;
+
+    h5.footer-header {
+      font-family: 'Futura-Bold';
+      font-size: 26px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    h5.copyright {
+      font-family: 'Futura-Book';
+      font-size: 26px;
+      text-transform: uppercase;
+      margin-top: 30px;
+    }
+    .email-cta {
+      font-family: 'Futura-Book';
+      font-size: 26px;
+      color: $white;
+
+      &:hover {
+        
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 340.394 340.393" style="enable-background:new 0 0 340.394 340.393;" xml:space="preserve">
+<g id="blueplanet_x5F_overlap">
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="52.0418" y1="21.3205" x2="362.7415" y2="412.8021">
+			<stop  offset="0.0025" style="stop-color:#486BED"/>
+			<stop  offset="0.0766" style="stop-color:#4359D1"/>
+			<stop  offset="0.2176" style="stop-color:#3B3AA2"/>
+			<stop  offset="0.3424" style="stop-color:#362480"/>
+			<stop  offset="0.4449" style="stop-color:#32166B"/>
+			<stop  offset="0.5124" style="stop-color:#311163"/>
+			<stop  offset="0.7697" style="stop-color:#30105D;stop-opacity:0.4724"/>
+			<stop  offset="1" style="stop-color:#2D0D53;stop-opacity:0"/>
+		</linearGradient>
+		<circle style="opacity:0.06;fill:url(#SVGID_1_);" cx="170.196" cy="170.196" r="170.182"/>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="77.0771" y1="52.865" x2="321.9447" y2="361.3981">
+			<stop  offset="0.0025" style="stop-color:#486BED"/>
+			<stop  offset="0.0766" style="stop-color:#4359D1"/>
+			<stop  offset="0.2176" style="stop-color:#3B3AA2"/>
+			<stop  offset="0.3424" style="stop-color:#362480"/>
+			<stop  offset="0.4449" style="stop-color:#32166B"/>
+			<stop  offset="0.5124" style="stop-color:#311163"/>
+			<stop  offset="0.7697" style="stop-color:#30105D;stop-opacity:0.4724"/>
+			<stop  offset="1" style="stop-color:#2D0D53;stop-opacity:0"/>
+		</linearGradient>
+		<circle style="fill:url(#SVGID_2_);" cx="170.196" cy="170.197" r="134.123"/>
+	</g>
+</g>
+<g id="Layer_1">
+</g>
+</svg>

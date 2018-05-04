@@ -1,0 +1,610 @@
+h1 {
+  font-family: 'Futura-Bold', sans-serif;
+  font-size: 155px;
+  text-transform: uppercase; }
+
+h2 {
+  font-family: 'Futura-Bold';
+  font-size: 110px;
+  text-transform: uppercase; }
+
+h3 {
+  font-family: 'Futura-Bold';
+  font-size: 50px; }
+
+h3.sub-header {
+  font-family: 'Futura-Medium';
+  font-size: 50px; }
+
+h4 {
+  font-family: 'Futura-Bold';
+  font-size: 26px;
+  text-transform: uppercase; }
+
+p {
+  font-family: 'Futura-Book';
+  font-size: 26px;
+  line-height: 30px; }
+
+li {
+  font-family: 'Futura-Book';
+  font-size: 24px;
+  line-height: 28px; }
+
+.cta-btn {
+  font-family: 'Futura-Bold';
+  font-size: 26px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 15px 40px;
+  transition: .33s all ease-in-out;
+  background: #ca1b5e;
+  background: -moz-linear-gradient(left, #ca1b5e 0%, #340d5d 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #ca1b5e), color-stop(100%, #340d5d));
+  background: -webkit-linear-gradient(left, #ca1b5e 0%, #340d5d 100%);
+  background: -o-linear-gradient(left, #ca1b5e 0%, #340d5d 100%);
+  background: -ms-linear-gradient(left, #ca1b5e 0%, #340d5d 100%);
+  background: linear-gradient(to right, #ca1b5e 0%, #340d5d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ca1b5e', endColorstr='#340d5d', GradientType=1 ); }
+  .cta-btn:hover {
+    color: #ffffff; }
+
+footer {
+  background: url("../img/backgrounds/footer.png") no-repeat center center;
+  background-size: cover;
+  height: auto; }
+  footer .footer-content {
+    text-align: center;
+    padding: 120px 0px;
+    color: #ffffff; }
+    footer .footer-content h5.footer-header {
+      font-family: 'Futura-Bold';
+      font-size: 26px;
+      text-transform: uppercase;
+      margin-bottom: 30px; }
+    footer .footer-content h5.copyright {
+      font-family: 'Futura-Book';
+      font-size: 26px;
+      text-transform: uppercase;
+      margin-top: 30px; }
+    footer .footer-content .email-cta {
+      font-family: 'Futura-Book';
+      font-size: 26px;
+      color: #ffffff; }
+
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url("../fonts/FuturaPT-Bold.eot");
+  src: url("../fonts/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold.woff") format("woff"), url("../fonts/FuturaPT-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Futura-Medium';
+  src: url("../fonts/FuturaPT-Medium.eot");
+  src: url("../fonts/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Medium.woff2") format("woff2"), url("../fonts/FuturaPT-Medium.woff") format("woff"), url("../fonts/FuturaPT-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Futura-Book';
+  src: url("../fonts/FuturaPT-Book.eot");
+  src: url("../fonts/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT-Book.woff") format("woff"), url("../fonts/FuturaPT-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* Icon 1 */
+#nav-icon {
+  width: 40px;
+  height: 25px;
+  position: fixed;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  z-index: 9998; }
+
+#nav-icon span {
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 9px;
+  opacity: 1;
+  left: 10%;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out; }
+
+/* Icon 3 */
+#nav-icon span:nth-child(1) {
+  top: 0px; }
+
+#nav-icon span:nth-child(2), #nav-icon span:nth-child(3) {
+  top: 12px; }
+
+#nav-icon span:nth-child(4) {
+  top: 24px; }
+
+#nav-icon.full-menu--open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+  border: none; }
+
+#nav-icon.full-menu--open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border: none; }
+
+#nav-icon.full-menu--open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border: none; }
+
+#nav-icon.full-menu--open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+  border: none; }
+
+/*
+ * Full menu
+ * ----------
+ * Styles in this section are very
+ * important and you have to implement
+ * them if you want for your
+ * navigation to work properly.
+ *
+ */
+.full-menu {
+  visibility: hidden;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.92);
+  -webkit-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  transform: scale(0.85);
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  z-index: -100 !important; }
+
+.full-menu--open {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  background-color: #540068;
+  z-index: 9999 !important; }
+
+.full-menu--transition {
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+
+.full-menu--middle {
+  display: block;
+  height: 100%;
+  position: relative; }
+  .full-menu--middle .main-nav {
+    list-style-type: none;
+    text-align: left;
+    padding: 0px;
+    height: 100%;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 100%; }
+    .full-menu--middle .main-nav li {
+      text-decoration: none; }
+      .full-menu--middle .main-nav li a {
+        font-family: 'Futura-Book';
+        text-transform: uppercase;
+        font-size: 52px;
+        color: white;
+        display: block;
+        margin: 0px 5%;
+        transition: all .33s ease-in-out;
+        padding: 0;
+        line-height: 64px; }
+        .full-menu--middle .main-nav li a:hover, .full-menu--middle .main-nav li a:active, .full-menu--middle .main-nav li a:focus {
+          text-decoration: none;
+          outline: none; }
+
+.menu-toggle {
+  position: relative;
+  left: 8%;
+  top: 40px; }
+  .menu-toggle span {
+    background-color: white; }
+
+#nav-icon span, .full-menu--open span {
+  background-color: white; }
+
+.nav-arrow {
+  width: 640px;
+  position: relative;
+  height: auto;
+  top: -8px; }
+
+.nav-arrow-small {
+  display: none; }
+
+/* CTA */
+#parent {
+  position: relative;
+  height: 60px;
+  width: auto;
+  font-family: 'Futura-Book';
+  text-transform: uppercase;
+  font-size: 52px;
+  color: white;
+  display: block;
+  margin: 0px 10%;
+  transition: all .33s ease-in-out;
+  padding: 0;
+  line-height: 64px; }
+
+#wrapper {
+  position: absolute;
+  width: auto;
+  height: auto;
+  transition: all .33s ease-in-out; }
+
+#child {
+  position: absolute;
+  width: 530px;
+  background-color: transparent;
+  transition: inherit;
+  top: 17px;
+  left: -1300px; }
+
+#wrapper:hover #child {
+  transform: translateX(230%); }
+
+a.logo-home {
+  width: 100px;
+  position: fixed;
+  right: 6%;
+  top: 30px;
+  z-index: 9998;
+  transition: all .33s ease-in-out; }
+
+.landing-section {
+  background: url("../img/backgrounds/landing.png") no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  color: #ffffff; }
+  .landing-section .cta-btn {
+    margin: 40px 10% 0 0;
+    display: inline-block;
+    float: right; }
+  .landing-section .landing-content {
+    text-align: center;
+    padding-top: 150px; }
+    .landing-section .landing-content h1 {
+      margin-bottom: 9px; }
+  .landing-section .landing-images .blueplanet-overlap {
+    width: 250px;
+    position: relative;
+    bottom: -240px;
+    right: 80px;
+    display: block; }
+  .landing-section .landing-images .moon {
+    margin: 0 auto;
+    width: 720px;
+    display: block;
+    position: relative;
+    top: -245px;
+    left: 5px; }
+
+.wwo-section {
+  background: url("../img/backgrounds/whatweoffer.png") no-repeat center center;
+  background-size: cover;
+  height: 2330px; }
+  .wwo-section h1.wwo-header {
+    color: #540068;
+    text-align: center;
+    font-size: 110px;
+    padding-top: 440px;
+    margin: 0; }
+  .wwo-section .presentation {
+    width: 80%;
+    margin: 0 10%; }
+    .wwo-section .presentation .rocket-build {
+      width: 110%;
+      padding-top: 260px; }
+    .wwo-section .presentation .presentation-text {
+      padding-top: 250px; }
+      .wwo-section .presentation .presentation-text h3 {
+        color: #540068; }
+  .wwo-section .academy {
+    width: 80%;
+    margin: 0 10%; }
+    .wwo-section .academy .astronaut {
+      width: 80%;
+      margin-left: 80px; }
+    .wwo-section .academy .academy-text {
+      padding-top: 250px; }
+      .wwo-section .academy .academy-text h3 {
+        color: #540068; }
+
+.obi-section {
+  background: url("../img/backgrounds/ourbigidea.png") no-repeat center center;
+  background-size: cover;
+  height: 2075px; }
+  .obi-section h1.obi-header {
+    color: #ffffff;
+    text-align: center;
+    font-size: 110px;
+    padding-top: 400px;
+    margin: 0; }
+  .obi-section .obi-content {
+    width: 90%;
+    margin: 0 10% 0 0; }
+    .obi-section .obi-content .obi-image .spaceship {
+      width: 90%;
+      margin: 300px 0% 0 15%; }
+    .obi-section .obi-content .obi-text {
+      color: #ffffff; }
+      .obi-section .obi-content .obi-text h3 {
+        text-transform: uppercase;
+        margin: 360px 30px 0 0; }
+      .obi-section .obi-content .obi-text h3.lowercase {
+        text-transform: none;
+        margin: 80px 30px 30px 0; }
+
+.why-us-section {
+  background: url("../img/backgrounds/whyus.png") no-repeat center center;
+  background-size: cover;
+  height: 2270px; }
+  .why-us-section h1.why-us-header {
+    font-size: 110px;
+    color: #540068;
+    padding: 350px 0% 0 20%;
+    margin: 0; }
+  .why-us-section .why-us-content {
+    width: 90%;
+    margin: 0 5%; }
+    .why-us-section .why-us-content .external {
+      padding: 250px 0 0 15%; }
+      .why-us-section .why-us-content .external h3 {
+        color: #540068; }
+    .why-us-section .why-us-content .img-alien .alien {
+      max-width: 350px;
+      margin-left: 100px; }
+    .why-us-section .why-us-content .img-saturn {
+      margin-top: 50px; }
+    .why-us-section .why-us-content .expertise {
+      margin-top: 80px;
+      padding-right: 10%; }
+      .why-us-section .why-us-content .expertise h3 {
+        color: #540068; }
+    .why-us-section .why-us-content .english {
+      padding: 100px 80px 0 15%; }
+      .why-us-section .why-us-content .english h3 {
+        color: #540068; }
+    .why-us-section .why-us-content .station {
+      width: 550px; }
+  .why-us-section .cta-btn {
+    margin: 150px auto;
+    display: table; }
+
+.wwa-section {
+  background: url("../img/backgrounds/whoweare.png") no-repeat center center;
+  background-size: cover;
+  height: 2200px;
+  color: #ffffff; }
+  .wwa-section h1.wwa-header {
+    font-size: 110px;
+    padding: 340px 0 0 0;
+    text-align: center; }
+  .wwa-section .wwa-content {
+    padding-top: 220px;
+    width: 80%;
+    margin: 0 10%; }
+    .wwa-section .wwa-content .row {
+      margin-bottom: 50px; }
+      .wwa-section .wwa-content .row .wwa-image {
+        width: auto;
+        max-width: 330px;
+        float: right; }
+      .wwa-section .wwa-content .row .wwa-description ul {
+        list-style-type: "-";
+        padding: 0; }
+        .wwa-section .wwa-content .row .wwa-description ul li {
+          margin: 0 0px 20px 8px;
+          padding-left: 10px; }
+
+.contact-section {
+  background: url("../img/backgrounds/earth.png") no-repeat center center;
+  background-size: cover;
+  height: 1700px; }
+  .contact-section h2.contact-header {
+    margin: 0;
+    font-size: 90px;
+    text-transform: none;
+    padding: 300px 0 0 25%;
+    color: #540068;
+    z-index: 999;
+    position: relative; }
+  .contact-section img.img-rocket {
+    width: 300px;
+    position: relative;
+    right: -68%;
+    bottom: 20%;
+    z-index: 10; }
+  .contact-section .contact-content .earth img.img-earth {
+    position: absolute;
+    width: 150%;
+    top: -200px; }
+  .contact-section .contact-content .contact-links .cta-btn {
+    display: inline-block;
+    width: 320px;
+    margin: 20px 0px 20px 80px;
+    position: relative;
+    top: -300px; }
+
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .menu-toggle span:nth-child(4) {
+    background-color: red !important; }
+
+  h1 {
+    font-size: 140px !important; }
+
+  h2, h1.wwo-header, h1.obi-header, h1.why-us-header, h1.wwa-header {
+    font-size: 100px !important; }
+
+  h2.contact-header {
+    font-size: 80px !important; }
+
+  h3, h3.sub-header {
+    font-size: 40px !important; }
+
+  h4 {
+    font-size: 24px; }
+
+  p {
+    font-size: 24px; }
+
+  li {
+    font-size: 22px; }
+
+  .cta-btn {
+    font-size: 24px; }
+
+  .landing-section .landing-images .blueplanet-overlap {
+    width: 200px;
+    bottom: -280px; }
+  .landing-section .landing-images .moon {
+    top: -145px;
+    width: 650px;
+    left: 20px; }
+
+  .wwo-section {
+    height: 1940px; }
+    .wwo-section h1.wwo-header {
+      padding-top: 370px; }
+    .wwo-section .presentation {
+      width: 90%;
+      margin: 0 5%; }
+      .wwo-section .presentation .no-padding-left {
+        padding-left: 0px; }
+      .wwo-section .presentation .rocket-build {
+        width: 500px;
+        padding-top: 180px; }
+      .wwo-section .presentation .presentation-text {
+        padding-top: 200px; }
+    .wwo-section .academy {
+      width: 90%;
+      margin: 0 5%; }
+      .wwo-section .academy .academy-text {
+        padding-top: 150px; }
+      .wwo-section .academy .academy-img .astronaut {
+        width: 400px;
+        margin: 20px 0px 0 40px; }
+
+  .obi-section {
+    height: 1735px; }
+    .obi-section h1.obi-header {
+      padding-top: 300px; }
+    .obi-section .obi-content {
+      width: 100%;
+      margin: 0; }
+      .obi-section .obi-content .obi-image .spaceship {
+        width: 450px;
+        margin: 300px 0% 0 10%; }
+      .obi-section .obi-content .obi-text {
+        padding: 0 50px; }
+        .obi-section .obi-content .obi-text h3 {
+          margin-top: 260px; }
+
+  .why-us-section {
+    height: 2035px; }
+    .why-us-section h1.why-us-header {
+      padding-top: 300px; }
+    .why-us-section .why-us-content .external {
+      padding-top: 220px; }
+    .why-us-section .why-us-content .img-alien img.alien {
+      max-width: 300px;
+      margin-top: 40px; }
+    .why-us-section .why-us-content .img-saturn {
+      margin-top: 100px; }
+    .why-us-section .why-us-content .english {
+      padding: 100px 60px 0 15%; }
+    .why-us-section .why-us-content .img-station img.station {
+      width: 480px; }
+    .why-us-section .cta-btn {
+      margin: 100px auto; }
+
+  .wwa-section {
+    height: 2000px; }
+    .wwa-section h1.wwa-header {
+      padding-top: 310px; }
+    .wwa-section .wwa-content {
+      padding-top: 160px; }
+      .wwa-section .wwa-content .row {
+        margin-bottom: 20px; }
+        .wwa-section .wwa-content .row img.wwa-image {
+          max-width: 300px;
+          margin-top: 40px;
+          float: none; }
+
+  .contact-section {
+    height: 1450px; }
+    .contact-section h2.contact-header {
+      padding-top: 250px; }
+    .contact-section img.img-rocket {
+      width: 250px;
+      position: relative;
+      right: -70%;
+      bottom: 25%; }
+    .contact-section .contact-content .earth img.img-earth {
+      width: 150%;
+      top: -100px; }
+    .contact-section .contact-content .contact-links .cta-btn {
+      top: -250px;
+      margin-left: 50px; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .menu-toggle span:nth-child(4) {
+    background-color: blue !important; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .menu-toggle span:nth-child(4) {
+    background-color: green !important; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .menu-toggle span:nth-child(4) {
+    background-color: yellow !important; } }
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .menu-toggle span:nth-child(4) {
+    background-color: pink !important; } }
+body {
+  height: auto;
+  width: 100%; }
+
+/*# sourceMappingURL=master.css.map */
