@@ -376,24 +376,26 @@ a.logo-home {
     padding: 200px 0% 0 0;
     margin: 0 0 100px 0;
     text-align: center; }
-  .why-us-section .why-us-content .external {
-    padding-top: 250px; }
-    .why-us-section .why-us-content .external h3 {
-      color: #540068; }
-  .why-us-section .why-us-content .img-alien .alien {
-    max-width: 350px;
-    margin: 50px 0 0 50px; }
-  .why-us-section .why-us-content .expertise {
-    margin-top: 80px;
-    padding: 0 50px; }
-    .why-us-section .why-us-content .expertise h3 {
-      color: #540068; }
-  .why-us-section .why-us-content .english {
-    padding: 120px 40px 0 15px; }
-    .why-us-section .why-us-content .english h3 {
-      color: #540068; }
-  .why-us-section .why-us-content .station {
-    width: 550px; }
+  .why-us-section .why-us-content {
+    padding: 0 15px; }
+    .why-us-section .why-us-content .external {
+      padding-top: 250px; }
+      .why-us-section .why-us-content .external h3 {
+        color: #540068; }
+    .why-us-section .why-us-content .img-alien .alien {
+      max-width: 350px;
+      margin: 50px 0 0 50px; }
+    .why-us-section .why-us-content .expertise {
+      margin-top: 80px;
+      padding: 0 50px; }
+      .why-us-section .why-us-content .expertise h3 {
+        color: #540068; }
+    .why-us-section .why-us-content .english {
+      padding: 120px 40px 0 15px; }
+      .why-us-section .why-us-content .english h3 {
+        color: #540068; }
+    .why-us-section .why-us-content .station {
+      width: 550px; }
   .why-us-section .cta-btn {
     margin: 150px auto 200px auto;
     display: table; }
