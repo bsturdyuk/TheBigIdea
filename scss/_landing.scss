@@ -44,15 +44,8 @@
 .wwo-section {
   background: url('../img/backgrounds/whatweoffer.png') no-repeat center center;
   background-size: cover;
-  height: 2330px;
-
-  // .wwo-bgline {
-  //   position: absolute;
-  //   left: 0;
-  //   right: 0;
-  //   margin: auto;
-  //   height: 2400px;
-  // }
+  height: auto;
+  padding-bottom: 200px;
 
   h1.wwo-header {
     color: $purple;
@@ -62,15 +55,12 @@
     margin: 0;
   }
   .presentation {
-    width: 80%;
-    margin: 0 10%;
-
     .rocket-build {
-      width: 110%;
-      padding-top: 260px;
+      width: 100%;
+      padding-top: 200px;
     }
     .presentation-text {
-      padding-top: 250px;
+      padding-top: 350px;
 
       h3 {
         color: $purple;
@@ -79,9 +69,6 @@
   }
 
   .academy {
-    width: 80%;
-    margin: 0 10%;
-
     .astronaut {
       width: 80%;
       margin-left: 80px;
@@ -100,24 +87,21 @@
 .obi-section {
   background: url('../img/backgrounds/ourbigidea.png') no-repeat center center;
   background-size: cover;
-  height: 2075px;
+  height: auto;
+  padding-bottom: 200px;
 
   h1.obi-header {
     color: $white;
     text-align: center;
     font-size: 110px;
-    padding-top: 400px;
+    padding-top: 200px;
     margin: 0;
   }
 
   .obi-content {
-    width: 90%;
-    margin: 0 10% 0 0;
-
     .obi-image {
       .spaceship {
-        width: 90%;
-        margin: 300px 0% 0 15%;
+        margin-top: 150px;
       }
     }
     .obi-text {
@@ -125,7 +109,7 @@
 
       h3 {
         text-transform: uppercase;
-        margin: 360px 30px 0 0;
+        margin-top: 250px;
       }
       h3.lowercase {
         text-transform: none;
@@ -140,21 +124,19 @@
 .why-us-section {
   background: url('../img/backgrounds/whyus.png') no-repeat center center;
   background-size: cover;
-  height: 2270px;
+  height: auto;
 
   h1.why-us-header{
     font-size: 110px;
     color: $purple;
-    padding: 350px 0% 0 20%;
-    margin: 0;
+    padding: 200px 0% 0 0;
+    margin: 0 0 100px 0;
+    text-align: center;
   }
 
   .why-us-content {
-    width: 90%;
-    margin: 0 5%;
-
     .external {
-      padding: 250px 0 0 15%;
+      padding-top: 250px;
 
       h3 {
         color: $purple;
@@ -163,16 +145,15 @@
     .img-alien {
       .alien {
         max-width: 350px;
-        margin-left: 100px;
+        margin: 50px 0 0 50px;
       }
     }
 
     .img-saturn {
-      margin-top: 50px;
     }
     .expertise {
       margin-top: 80px;
-      padding-right: 10%;
+      padding: 0 50px;
 
       h3 {
         color: $purple;
@@ -180,7 +161,7 @@
     }
 
     .english {
-      padding: 100px 80px 0 15%;
+      padding: 120px 40px 0 15px;
 
       h3 {
         color: $purple;
@@ -192,7 +173,7 @@
   }
 
   .cta-btn {
-    margin: 150px auto;
+    margin: 150px auto 200px auto;
     display: table;
   }
 }
@@ -202,19 +183,18 @@
 .wwa-section {
   background: url('../img/backgrounds/whoweare.png') no-repeat center center;
   background-size: cover;
-  height: 2200px;
+  height: auto;
   color: $white;
+  padding-bottom: 150px;
 
   h1.wwa-header {
     font-size: 110px;
-    padding: 340px 0 0 0;
+    padding: 200px 0 0 0;
     text-align: center;
   }
 
   .wwa-content {
-    padding-top: 220px;
-    width: 80%;
-    margin: 0 10%;
+    padding-top: 200px;
 
     .row {
       margin-bottom: 50px;
@@ -246,13 +226,14 @@
 .contact-section {
   background: url('../img/backgrounds/earth.png') no-repeat center center;
   background-size: cover;
-  height: 1700px;
+  height: auto;
+  padding-bottom: 200px;
 
   h2.contact-header {
     margin: 0;
     font-size: 90px;
     text-transform: none;
-    padding: 300px 0 0 25%;
+    padding: 200px 0 0 25%;
     color: $purple;
     z-index: 999;
     position: relative;
@@ -261,8 +242,8 @@
   img.img-rocket {
     width: 300px;
     position: relative;
-    right: -68%;
-    bottom: 20%;
+    left: 65%;
+    top: -300px;
     z-index: 10;
   }
 
@@ -271,7 +252,7 @@
       img.img-earth {
         position: absolute;
         width: 150%;
-        top: -200px;
+        top: -400px;
       }
     }
     .contact-links {
@@ -280,7 +261,7 @@
         width: 320px;
         margin: 20px 0px 20px 80px;
         position: relative;
-        top: -300px;
+        top: -250px;
       }
     }
   }

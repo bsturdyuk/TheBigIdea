@@ -321,108 +321,95 @@ a.logo-home {
 .wwo-section {
   background: url("../img/backgrounds/whatweoffer.png") no-repeat center center;
   background-size: cover;
-  height: 2330px; }
+  height: auto;
+  padding-bottom: 200px; }
   .wwo-section h1.wwo-header {
     color: #540068;
     text-align: center;
     font-size: 110px;
     padding-top: 440px;
     margin: 0; }
-  .wwo-section .presentation {
+  .wwo-section .presentation .rocket-build {
+    width: 100%;
+    padding-top: 200px; }
+  .wwo-section .presentation .presentation-text {
+    padding-top: 350px; }
+    .wwo-section .presentation .presentation-text h3 {
+      color: #540068; }
+  .wwo-section .academy .astronaut {
     width: 80%;
-    margin: 0 10%; }
-    .wwo-section .presentation .rocket-build {
-      width: 110%;
-      padding-top: 260px; }
-    .wwo-section .presentation .presentation-text {
-      padding-top: 250px; }
-      .wwo-section .presentation .presentation-text h3 {
-        color: #540068; }
-  .wwo-section .academy {
-    width: 80%;
-    margin: 0 10%; }
-    .wwo-section .academy .astronaut {
-      width: 80%;
-      margin-left: 80px; }
-    .wwo-section .academy .academy-text {
-      padding-top: 250px; }
-      .wwo-section .academy .academy-text h3 {
-        color: #540068; }
+    margin-left: 80px; }
+  .wwo-section .academy .academy-text {
+    padding-top: 250px; }
+    .wwo-section .academy .academy-text h3 {
+      color: #540068; }
 
 .obi-section {
   background: url("../img/backgrounds/ourbigidea.png") no-repeat center center;
   background-size: cover;
-  height: 2075px; }
+  height: auto;
+  padding-bottom: 200px; }
   .obi-section h1.obi-header {
     color: #ffffff;
     text-align: center;
     font-size: 110px;
-    padding-top: 400px;
+    padding-top: 200px;
     margin: 0; }
-  .obi-section .obi-content {
-    width: 90%;
-    margin: 0 10% 0 0; }
-    .obi-section .obi-content .obi-image .spaceship {
-      width: 90%;
-      margin: 300px 0% 0 15%; }
-    .obi-section .obi-content .obi-text {
-      color: #ffffff; }
-      .obi-section .obi-content .obi-text h3 {
-        text-transform: uppercase;
-        margin: 360px 30px 0 0; }
-      .obi-section .obi-content .obi-text h3.lowercase {
-        text-transform: none;
-        margin: 80px 30px 30px 0; }
+  .obi-section .obi-content .obi-image .spaceship {
+    margin-top: 150px; }
+  .obi-section .obi-content .obi-text {
+    color: #ffffff; }
+    .obi-section .obi-content .obi-text h3 {
+      text-transform: uppercase;
+      margin-top: 250px; }
+    .obi-section .obi-content .obi-text h3.lowercase {
+      text-transform: none;
+      margin: 80px 30px 30px 0; }
 
 .why-us-section {
   background: url("../img/backgrounds/whyus.png") no-repeat center center;
   background-size: cover;
-  height: 2270px; }
+  height: auto; }
   .why-us-section h1.why-us-header {
     font-size: 110px;
     color: #540068;
-    padding: 350px 0% 0 20%;
-    margin: 0; }
-  .why-us-section .why-us-content {
-    width: 90%;
-    margin: 0 5%; }
-    .why-us-section .why-us-content .external {
-      padding: 250px 0 0 15%; }
-      .why-us-section .why-us-content .external h3 {
-        color: #540068; }
-    .why-us-section .why-us-content .img-alien .alien {
-      max-width: 350px;
-      margin-left: 100px; }
-    .why-us-section .why-us-content .img-saturn {
-      margin-top: 50px; }
-    .why-us-section .why-us-content .expertise {
-      margin-top: 80px;
-      padding-right: 10%; }
-      .why-us-section .why-us-content .expertise h3 {
-        color: #540068; }
-    .why-us-section .why-us-content .english {
-      padding: 100px 80px 0 15%; }
-      .why-us-section .why-us-content .english h3 {
-        color: #540068; }
-    .why-us-section .why-us-content .station {
-      width: 550px; }
+    padding: 200px 0% 0 0;
+    margin: 0 0 100px 0;
+    text-align: center; }
+  .why-us-section .why-us-content .external {
+    padding-top: 250px; }
+    .why-us-section .why-us-content .external h3 {
+      color: #540068; }
+  .why-us-section .why-us-content .img-alien .alien {
+    max-width: 350px;
+    margin: 50px 0 0 50px; }
+  .why-us-section .why-us-content .expertise {
+    margin-top: 80px;
+    padding: 0 50px; }
+    .why-us-section .why-us-content .expertise h3 {
+      color: #540068; }
+  .why-us-section .why-us-content .english {
+    padding: 120px 40px 0 15px; }
+    .why-us-section .why-us-content .english h3 {
+      color: #540068; }
+  .why-us-section .why-us-content .station {
+    width: 550px; }
   .why-us-section .cta-btn {
-    margin: 150px auto;
+    margin: 150px auto 200px auto;
     display: table; }
 
 .wwa-section {
   background: url("../img/backgrounds/whoweare.png") no-repeat center center;
   background-size: cover;
-  height: 2200px;
-  color: #ffffff; }
+  height: auto;
+  color: #ffffff;
+  padding-bottom: 150px; }
   .wwa-section h1.wwa-header {
     font-size: 110px;
-    padding: 340px 0 0 0;
+    padding: 200px 0 0 0;
     text-align: center; }
   .wwa-section .wwa-content {
-    padding-top: 220px;
-    width: 80%;
-    margin: 0 10%; }
+    padding-top: 200px; }
     .wwa-section .wwa-content .row {
       margin-bottom: 50px; }
       .wwa-section .wwa-content .row .wwa-image {
@@ -439,31 +426,32 @@ a.logo-home {
 .contact-section {
   background: url("../img/backgrounds/earth.png") no-repeat center center;
   background-size: cover;
-  height: 1700px; }
+  height: auto;
+  padding-bottom: 200px; }
   .contact-section h2.contact-header {
     margin: 0;
     font-size: 90px;
     text-transform: none;
-    padding: 300px 0 0 25%;
+    padding: 200px 0 0 25%;
     color: #540068;
     z-index: 999;
     position: relative; }
   .contact-section img.img-rocket {
     width: 300px;
     position: relative;
-    right: -68%;
-    bottom: 20%;
+    left: 65%;
+    top: -300px;
     z-index: 10; }
   .contact-section .contact-content .earth img.img-earth {
     position: absolute;
     width: 150%;
-    top: -200px; }
+    top: -400px; }
   .contact-section .contact-content .contact-links .cta-btn {
     display: inline-block;
     width: 320px;
     margin: 20px 0px 20px 80px;
     position: relative;
-    top: -300px; }
+    top: -250px; }
 
 /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -503,90 +491,8 @@ a.logo-home {
     width: 650px;
     left: 20px; }
 
-  .wwo-section {
-    height: 1940px; }
-    .wwo-section h1.wwo-header {
-      padding-top: 370px; }
-    .wwo-section .presentation {
-      width: 90%;
-      margin: 0 5%; }
-      .wwo-section .presentation .no-padding-left {
-        padding-left: 0px; }
-      .wwo-section .presentation .rocket-build {
-        width: 500px;
-        padding-top: 180px; }
-      .wwo-section .presentation .presentation-text {
-        padding-top: 200px; }
-    .wwo-section .academy {
-      width: 90%;
-      margin: 0 5%; }
-      .wwo-section .academy .academy-text {
-        padding-top: 150px; }
-      .wwo-section .academy .academy-img .astronaut {
-        width: 400px;
-        margin: 20px 0px 0 40px; }
-
-  .obi-section {
-    height: 1735px; }
-    .obi-section h1.obi-header {
-      padding-top: 300px; }
-    .obi-section .obi-content {
-      width: 100%;
-      margin: 0; }
-      .obi-section .obi-content .obi-image .spaceship {
-        width: 450px;
-        margin: 300px 0% 0 10%; }
-      .obi-section .obi-content .obi-text {
-        padding: 0 50px; }
-        .obi-section .obi-content .obi-text h3 {
-          margin-top: 260px; }
-
-  .why-us-section {
-    height: 2035px; }
-    .why-us-section h1.why-us-header {
-      padding-top: 300px; }
-    .why-us-section .why-us-content .external {
-      padding-top: 220px; }
-    .why-us-section .why-us-content .img-alien img.alien {
-      max-width: 300px;
-      margin-top: 40px; }
-    .why-us-section .why-us-content .img-saturn {
-      margin-top: 100px; }
-    .why-us-section .why-us-content .english {
-      padding: 100px 60px 0 15%; }
-    .why-us-section .why-us-content .img-station img.station {
-      width: 480px; }
-    .why-us-section .cta-btn {
-      margin: 100px auto; }
-
-  .wwa-section {
-    height: 2000px; }
-    .wwa-section h1.wwa-header {
-      padding-top: 310px; }
-    .wwa-section .wwa-content {
-      padding-top: 160px; }
-      .wwa-section .wwa-content .row {
-        margin-bottom: 20px; }
-        .wwa-section .wwa-content .row img.wwa-image {
-          max-width: 300px;
-          margin-top: 40px;
-          float: none; }
-
-  .contact-section {
-    height: 1450px; }
-    .contact-section h2.contact-header {
-      padding-top: 250px; }
-    .contact-section img.img-rocket {
-      width: 250px;
-      position: relative;
-      right: -70%;
-      bottom: 25%; }
-    .contact-section .contact-content .earth img.img-earth {
-      width: 150%;
-      top: -100px; }
-    .contact-section .contact-content .contact-links .cta-btn {
-      top: -250px;
-      margin-left: 50px; } }
+  .why-us-section .why-us-content {
+    padding: 0 30px; } }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .menu-toggle span:nth-child(4) {

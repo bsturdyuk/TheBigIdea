@@ -15,6 +15,10 @@
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
+
+		<!-- Animate CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
 		<!-- Custom CSS -->
 		<link rel="stylesheet" type="text/css" href="css/master.css">
 	</head>
@@ -62,104 +66,116 @@
 				</ul><!-- /.main nav -->
 			</div><!-- /.full menu middle -->
 		</div><!-- /.full menu -->
-		<button class="menu-toggle" id="nav-icon"><span></span>
+		<button class="menu-toggle wow fadeInLeft" id="nav-icon"><span></span>
 			<span></span>
 			<span></span>
 			<span></span>
 		</button>
 
 		<section class="landing-section" id="landing">
-			<a href="#" class="cta-btn">Check our blog</a>
+			<a href="#" class="cta-btn wow fadeInRight">Check our blog</a>
 			<div class="landing-content">
-				<h1>The Big Idea</h1>
-				<h3 class="sub-header">Taking your presentation to the moon</h2>
+				<h1 class="wow bounceInDown">The Big Idea</h1>
+				<h3 class="sub-header wow bounceInDown">Taking your presentation to the moon</h2>
 			</div>
 
 			<div class="landing-images">
-				<img src="img/assets/landing/blueplanet-overlap.svg" class="blueplanet-overlap">
-				<img src="img/assets/landing/moon.svg" alt="moon" class="moon">
+				<img src="img/assets/landing/blueplanet-overlap.svg" class="blueplanet-overlap wow fadeInRight" data-wow-delay=".5s">
+				<img src="img/assets/landing/moon.svg" alt="moon" class="moon wow fadeInUp">
 			</div>
 		</section>
 
 		<section class="wwo-section" id="wwo">
-			<h1 class="wwo-header">What We Offer</h1>
-			<div class="presentation">
-				<div class="col-md-6 no-padding-left">
-					<img src="img/assets/what-we-offer/rocket-build.svg" alt="" class="rocket-build">
+			<h1 class="wwo-header wow bounceInLeft" data-wow-delay="1s">What We Offer</h1>
+
+			<div class="container">
+				<div class="presentation">
+					<div class="col-md-6 no-padding-left">
+						<img src="img/assets/what-we-offer/rocket-build.svg" alt="" class="rocket-build wow bounceInUp" data-wow-delay="1s">
+					</div>
+					<div class="col-md-6 presentation-text wow fadeInRight" data-wow-delay=".5s">
+						<h3>Presentation Building</h3>
+						<p>Our team can help to build or re-work your pitch deck, sales presentation or any other presentation document.
+						We optimise the impact of your presentation through structure, visual design and copywriting.</p>
+					</div>
+					<div class="clearfix"></div>
 				</div>
-				<div class="col-md-6 presentation-text">
-					<h3>Presentation Building</h3>
-					<p>Our team can help to build or re-work your pitch deck, sales presentation or any other presentation document.
-					We optimise the impact of your presentation through structure, visual design and copywriting.</p>
+				<div class="academy">
+					<div class="col-md-6 academy-text wow fadeInLeft" data-wow-delay=".5s">
+						<h3>The Big Idea Academy</h3>
+						<p>We help professionals to improve their presentations and public speaking through workshops and one-on-one coaching.
+							The focus of the training programs can be adjusted to meet your specific needs.</p>
+					</div>
+					<div class="col-md-6 academy-img">
+						<img src="img/assets/what-we-offer/astronaut.svg" alt="" class="astronaut wow rotateIn" data-wow-delay="1s">
+					</div>
+					<div class="clearfix"></div>
 				</div>
-				<div class="clearfix"></div>
 			</div>
-			<div class="academy">
-				<div class="col-md-6 academy-text">
-					<h3>The Big Idea Academy</h3>
-					<p>We help professionals to improve their presentations and public speaking through workshops and one-on-one coaching.
-						The focus of the training programs can be adjusted to meet your specific needs.</p>
-				</div>
-				<div class="col-md-6 academy-img">
-					<img src="img/assets/what-we-offer/astronaut.svg" alt="" class="astronaut">
-				</div>
-				<div class="clearfix"></div>
-			</div>
+
 		</section>
 
 
 		<section class="obi-section" id="obi">
 			<h1 class="obi-header">Our Big Idea</h1>
-			<div class="obi-content">
-				<div class="col-md-6 obi-image">
-				  <img src="img/assets/our-big-idea/spaceship.svg" alt="" class="spaceship">
+
+			<div class="container">
+				<div class="obi-content">
+					<div class="col-md-6 obi-image">
+					  <img src="img/assets/our-big-idea/spaceship.svg" alt="" class="spaceship">
+					</div>
+					<div class="col-md-6 obi-text">
+						<h3>An Impactful Presentation is...</h3>
+						<h3 class="lowercase">Relevant content</h3>
+						<p>Having a compelling Big Idea, a well deﬁned call to action and content adjusted to the audience you are communicating to is the essential foundation of every impactful presentation.</p>
+						<h3 class="lowercase">Visual design</h3>
+						<p>In essence, a presentation is a valid tool to communicate ideas. No matter how compelling your big idea is, the key messages should be communicated in a simple and visually attractive way.</p>
+						<h3 class="lowercase">Powerful delivery</h3>
+						<p>The delivery or 'performance' is the third building block of impactful presentations and is often the difference between a presentation and an experience. After all: the presenter IS the presentation.</p>
+					</div>
+					<div class="clearfix"></div>
 				</div>
-				<div class="col-md-6 obi-text">
-					<h3>An Impactful Presentation is...</h3>
-					<h3 class="lowercase">Relevant content</h3>
-					<p>Having a compelling Big Idea, a well deﬁned call to action and content adjusted to the audience you are communicating to is the essential foundation of every impactful presentation.</p>
-					<h3 class="lowercase">Visual design</h3>
-					<p>In essence, a presentation is a valid tool to communicate ideas. No matter how compelling your big idea is, the key messages should be communicated in a simple and visually attractive way.</p>
-					<h3 class="lowercase">Powerful delivery</h3>
-					<p>The delivery or 'performance' is the third building block of impactful presentations and is often the difference between a presentation and an experience. After all: the presenter IS the presentation.</p>
-				</div>
-				<div class="clearfix"></div>
 			</div>
+
 		</section>
 
 		<section class="why-us-section" id="why-us">
 			<h1 class="why-us-header">Why Us?</h1>
-			<div class="why-us-content">
-				<div class="row">
-					<div class="col-md-6 external">
-					  <h3>External Opinion</h3>
-						<p>A fresh pair of eyes. An external opinion on your presentation design and structure will proof extremely valuable.</p>
-					</div>
-					<div class="col-md-6 img-alien">
-						<img src="img/assets/why-us/alien.svg" alt="" class="alien">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 img-saturn">
-						<img src="img/assets/why-us/saturn.svg" alt="" class="saturn">
-					</div>
-					<div class="col-md-6 expertise">
-					  <h3>Expertise</h3>
-						<p>We are passionate about presentations and therefore we know a lot about how to make one. Make use of our expertise.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 english">
-					  <h3>Native English</h3>
-						<p>We have an in-house native English copy-writer that can help you to make your story truly compelling.</p>
-					</div>
-					<div class="col-md-6 img-station">
-						<img src="img/assets/why-us/station.svg" alt="" class="station">
-					</div>
-				</div>
 
-				<div class="clearfix"></div>
+			<div class="container">
+				<div class="why-us-content">
+					<div class="row">
+						<div class="col-md-6 external">
+						  <h3>External Opinion</h3>
+							<p>A fresh pair of eyes. An external opinion on your presentation design and structure will proof extremely valuable.</p>
+						</div>
+						<div class="col-md-6 img-alien">
+							<img src="img/assets/why-us/alien.svg" alt="" class="alien">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 img-saturn">
+							<img src="img/assets/why-us/saturn.svg" alt="" class="saturn">
+						</div>
+						<div class="col-md-6 expertise">
+						  <h3>Expertise</h3>
+							<p>We are passionate about presentations and therefore we know a lot about how to make one. Make use of our expertise.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 english">
+						  <h3>Native English</h3>
+							<p>We have an in-house native English copy-writer that can help you to make your story truly compelling.</p>
+						</div>
+						<div class="col-md-6 img-station">
+							<img src="img/assets/why-us/station.svg" alt="" class="img-responsive station">
+						</div>
+					</div>
+
+					<div class="clearfix"></div>
+				</div>
 			</div>
+
 			<a href="#" class="cta-btn">Check our projects</a>
 		</section>
 
@@ -167,50 +183,51 @@
 		<section class="wwa-section" id="wwa">
 			<h1 class="wwa-header">Who we are</h1>
 
-			<div class="wwa-content">
-				<div class="row">
-					<div class="col-md-5">
-					  <img src="img/assets/who-we-are/profile.svg" alt="" class="wwa-image">
+			<div class="container">
+				<div class="wwa-content">
+					<div class="row">
+						<div class="col-md-5">
+						  <img src="img/assets/who-we-are/profile.svg" alt="" class="wwa-image">
+						</div>
+						<div class="col-md-7 wwa-description">
+							<h4>Mathias Lasoen - Consultant</h4>
+							<ul>
+								<li>Mathias has 4+ years of experience as a corporate storyteller in the ﬁeld of market research.</li>
+								<li>Did 250+ business presentations for a wide variety of audiences from corporate executives, to marketeers, & engineers.</li>
+								<li>Holds a master in marketingmanagement & research and a certiﬁcate in public speaking and presentation skills.</li>
+								<li>Originally from Belgium, but moved to Ho Chi Minh City in April 2017.</li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-md-7 wwa-description">
-						<h4>Mathias Lasoen - Consultant</h4>
-						<ul>
-							<li>Mathias has 4+ years of experience as a corporate storyteller in the ﬁeld of market research.</li>
-							<li>Did 250+ business presentations for a wide variety of audiences from corporate executives, to marketeers, & engineers.</li>
-							<li>Holds a master in marketingmanagement & research and a certiﬁcate in public speaking and presentation skills.</li>
-							<li>Originally from Belgium, but moved to Ho Chi Minh City in April 2017.</li>
-						</ul>
+					<div class="row">
+						<div class="col-md-5">
+						  <img src="img/assets/who-we-are/profile.svg" alt="" class="wwa-image">
+						</div>
+						<div class="col-md-7 wwa-description">
+							<h4>Mathias Lasoen - Consultant</h4>
+							<ul>
+								<li>Mathias has 4+ years of experience as a corporate storyteller in the ﬁeld of market research.</li>
+								<li>Did 250+ business presentations for a wide variety of audiences from corporate executives, to marketeers, & engineers.</li>
+								<li>Holds a master in marketingmanagement & research and a certiﬁcate in public speaking and presentation skills.</li>
+								<li>Originally from Belgium, but moved to Ho Chi Minh City in April 2017.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+						  <img src="img/assets/who-we-are/profile.svg" alt="" class="wwa-image">
+						</div>
+						<div class="col-md-7 wwa-description">
+							<h4>Mathias Lasoen - Consultant</h4>
+							<ul>
+								<li>Mathias has 4+ years of experience as a corporate storyteller in the ﬁeld of market research.</li>
+								<li>Did 250+ business presentations for a wide variety of audiences from corporate executives, to marketeers, & engineers.</li>
+								<li>Holds a master in marketingmanagement & research and a certiﬁcate in public speaking and presentation skills.</li>
+								<li>Originally from Belgium, but moved to Ho Chi Minh City in April 2017.</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-5">
-					  <img src="img/assets/who-we-are/profile.svg" alt="" class="wwa-image">
-					</div>
-					<div class="col-md-7 wwa-description">
-						<h4>Mathias Lasoen - Consultant</h4>
-						<ul>
-							<li>Mathias has 4+ years of experience as a corporate storyteller in the ﬁeld of market research.</li>
-							<li>Did 250+ business presentations for a wide variety of audiences from corporate executives, to marketeers, & engineers.</li>
-							<li>Holds a master in marketingmanagement & research and a certiﬁcate in public speaking and presentation skills.</li>
-							<li>Originally from Belgium, but moved to Ho Chi Minh City in April 2017.</li>
-						</ul>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-5">
-					  <img src="img/assets/who-we-are/profile.svg" alt="" class="wwa-image">
-					</div>
-					<div class="col-md-7 wwa-description">
-						<h4>Mathias Lasoen - Consultant</h4>
-						<ul>
-							<li>Mathias has 4+ years of experience as a corporate storyteller in the ﬁeld of market research.</li>
-							<li>Did 250+ business presentations for a wide variety of audiences from corporate executives, to marketeers, & engineers.</li>
-							<li>Holds a master in marketingmanagement & research and a certiﬁcate in public speaking and presentation skills.</li>
-							<li>Originally from Belgium, but moved to Ho Chi Minh City in April 2017.</li>
-						</ul>
-					</div>
-				</div>
-
 			</div>
 		</section>
 
@@ -251,6 +268,9 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
  		<script src="Hello World"></script>
+
+		<!-- WOW js -->
+		<script src="js/wow.min.js"></script>
 
 		<!-- Custom Js -->
  		<script type="text/javascript" src="js/custom.js"></script>

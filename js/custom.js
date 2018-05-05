@@ -18,5 +18,8 @@ $(document).ready(function(){
 
     $('.full-menu').toggleClass('full-menu--open');
     $('button#nav-icon').toggleClass('full-menu--open');
-});
+  });
+
+  new WOW().init();
+  
 });
