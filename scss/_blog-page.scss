@@ -1,0 +1,139 @@
+// Blog Page (all)
+
+.blog-section {
+  background: url('../img/backgrounds/inside-pages/blog.png') no-repeat center center;
+  background-size: cover;
+  height: auto;
+  padding: 200px 0;
+
+  h1 {
+    font-size: 110px;
+    margin: 0 auto 100px;
+    color: $purple;
+  }
+
+  .blog-content {
+    display: grid;
+    grid-template-rows: 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-self: start;
+    align-self: center;
+    padding: 0 50px;
+
+    .blog-item {
+      padding: 20px 50px;
+      transition: .33s all ease-in-out;
+      height: 350px;
+
+      h3 {
+        color: $white;
+      }
+
+      &:hover {
+        text-decoration: none;
+        transform: scale(1.02);
+      }
+    }
+
+    .item1, .item2, .item3, .item4, .item5, .item6 {
+      background: url('../img/backgrounds/inside-pages/blog-item.jpg') no-repeat center center;
+      background-size: cover;
+    }
+  }
+}
+
+
+
+// Our Projects
+.projects-section {
+  background: url('../img/backgrounds/inside-pages/projects.png') no-repeat center center;
+  background-size: cover;
+  height: auto;
+  padding: 200px 0;
+
+  h1 {
+    font-size: 110px;
+    margin: 0 auto 100px;
+    color: $white;
+  }
+
+  .projects-content {
+    display: grid;
+    grid-template-rows: 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-self: start;
+    align-self: center;
+    padding: 0 50px;
+
+    .blog-item {
+      padding: 20px 50px;
+      transition: .33s all ease-in-out;
+      height: 350px;
+
+      h3 {
+        color: $white;
+      }
+
+      &:hover {
+        text-decoration: none;
+        transform: scale(1.02);
+      }
+    }
+
+    .item1, .item2, .item3, .item4, .item5, .item6 {
+      background: url('../img/backgrounds/inside-pages/blog-item.jpg') no-repeat center center;
+      background-size: cover;
+    }
+  }
+}
+
+
+
+// Our Webinars
+.webinars-section {
+  background: url('../img/backgrounds/inside-pages/webinars.png') no-repeat center center;
+  background-size: cover;
+  height: auto;
+  padding: 200px 0;
+
+  h1 {
+    font-size: 110px;
+    margin: 0 auto 100px;
+    color: $purple;
+  }
+
+  .webinars-content {
+    display: grid;
+    grid-template-rows: 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-self: start;
+    align-self: center;
+    padding: 0 50px;
+
+    .blog-item {
+      padding: 20px 50px;
+      transition: .33s all ease-in-out;
+      height: 350px;
+
+      h3 {
+        color: $white;
+      }
+
+      &:hover {
+        text-decoration: none;
+        transform: scale(1.02);
+      }
+    }
+
+    .item1, .item2, .item3, .item4, .item5, .item6 {
+      background: url('../img/backgrounds/inside-pages/blog-item.jpg') no-repeat center center;
+      background-size: cover;
+    }
+  }
+}
