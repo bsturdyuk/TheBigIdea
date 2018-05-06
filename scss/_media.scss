@@ -62,6 +62,13 @@
       .why-us-section  {
         .why-us-content {
           padding: 0 30px;
+
+          .english {
+            margin-top: 50px;
+          }
+          .img-station {
+            margin-top: 100px;
+          }
         }
       }
 
@@ -74,7 +81,23 @@
 
       // Contact Section
       .contact-section {
+        padding-bottom: 100px;
+        h2.contact-header {
+          padding: 200px 0 0 20%;
+        }
+        .contact-content {
+          .earth {
+            img.img-earth {
+              top: -300px;
+            }
+          }
 
+          .contact-links {
+            .cta-btn {
+              top: -220px;
+            }
+          }
+        }
       }
     }
 
@@ -82,16 +105,430 @@
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
     	.menu-toggle span:nth-child(4) { background-color: blue !important; }
+
+      // Globals
+      h1 {
+        font-size: 110px !important;
+      }
+      h2, h1.wwo-header, h1.obi-header, h1.why-us-header, h1.wwa-header {
+        font-size: 90px !important;
+      }
+      h2.contact-header {
+        font-size: 60px !important;
+      }
+      h3, h3.sub-header {
+        font-size: 30px !important;
+      }
+      h4 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 20px;
+      }
+      li {
+        font-size: 18px;
+      }
+      .cta-btn {
+        font-size: 20px;
+      }
+
+      // Landing section
+      .landing-section {
+        .landing-content {
+          padding-top: 200px;
+        }
+        .landing-images {
+          .blueplanet-overlap {
+            display: none;
+          }
+          .moon {
+            top: 90px;
+            width: 600px;
+            left: 0px;
+          }
+        }
+      }
+
+
+      // What We Offer Section
+      .wwo-section {
+        h1.wwo-header {
+          padding-top: 400px;
+        }
+
+        .presentation {
+          .rocket-build {
+            padding-top: 150px;
+          }
+          .presentation-text {
+            padding-top: 250px;
+          }
+        }
+        .academy {
+          .academy-text {
+            padding-top: 150px;
+          }
+
+          .astronaut {
+            margin: 80px 0px 0 50px;
+          }
+        }
+      }
+
+
+      // Our Big Idea section
+      .obi-section {
+        h1.obi-header {
+          padding-top: 150px;
+        }
+
+        .obi-content {
+          .obi-text {
+            h3 {
+              margin-top: 100px;
+            }
+            h3.lowercase {
+              margin: 40px 30px 10px 0;
+            }
+          }
+        }
+      }
+
+      // Why Us Section
+      .why-us-section  {
+        h1.why-us-header {
+          padding-top: 150px;
+        }
+
+        .why-us-content {
+          padding: 0 30px;
+
+          .external {
+            padding: 200px 0 0 0;
+          }
+
+          .img-alien {
+            .alien {
+              margin: 50px;
+            }
+          }
+
+          .expertise {
+            margin-top: 20px;
+          }
+
+          .english {
+            margin-top: 50px;
+          }
+          .img-station {
+            margin-top: 100px;
+          }
+        }
+      }
+
+
+      // Who We Are Section
+      .wwa-section {
+        h1.wwa-header {
+          padding-top: 150px;
+        }
+
+        .wwa-content {
+          padding-top: 120px;
+
+          .row {
+            .wwa-image {
+              float: none;
+              max-width: 250px;
+            }
+          }
+        }
+      }
+
+
+      // Contact Section
+      .contact-section {
+        padding-bottom: 0px;
+
+        h2.contact-header {
+          padding: 150px 0 0 10%;
+        }
+
+        img.img-rocket {
+          width: 200px;
+          left: 60%;
+          top: -200px;
+        }
+
+        .contact-content {
+          .earth {
+            img.img-earth {
+              width: 100%;
+              position: relative;
+              top: -200px;
+            }
+          }
+
+          .contact-links {
+            .cta-btn {
+              margin: 20px auto;
+              top: -120px;
+              display: block;
+            }
+          }
+        }
+      }
     }
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
     	.menu-toggle span:nth-child(4) { background-color: green !important; }
+
+      // Globals
+      h1 {
+        font-size: 90px !important;
+      }
+      h2, h1.wwo-header, h1.obi-header, h1.why-us-header, h1.wwa-header {
+        font-size: 70px !important;
+      }
+      h2.contact-header {
+        font-size: 50px !important;
+      }
+      h3, h3.sub-header {
+        font-size: 26px !important;
+      }
+      h4 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 18px;
+      }
+      li {
+        font-size: 16px;
+      }
+      .cta-btn {
+        font-size: 18px;
+      }
+
+      // Landing section
+      .landing-section {
+        .landing-content {
+          padding-top: 200px;
+        }
+        .landing-images {
+          .moon {
+            top: 100px;
+            width: 80%;
+            margin: 0 10%;
+          }
+        }
+      }
+
+
+      // What We Offer Section
+      .wwo-section {
+        h1.wwo-header {
+          padding-top: 300px;
+        }
+
+        .presentation {
+          .rocket-build {
+            padding-top: 150px;
+            width: 60%;
+            margin: 0 auto;
+            display: block;
+          }
+          .presentation-text {
+            padding-top: 50px;
+          }
+        }
+        .academy {
+          display: flex;
+          flex-flow: column-reverse;
+
+          .academy-item {
+            width: 100%;
+
+            .astronaut {
+              width: 50%;
+              margin: 100px auto 30px;
+              display: block;
+            }
+          }
+          .academy-text {
+            padding-top: 30px;
+          }
+        }
+      }
+
+
+      // Our Big Idea section
+      .obi-section {
+        .obi-content {
+          .obi-image {
+            .spaceship {
+              width: 65%;
+              margin: 100px auto 30px;
+              display: block;
+            }
+          }
+        }
+      }
+
+      // Why Us Section
+      .why-us-section  {
+        .why-us-content {
+          padding: 0 15px;
+
+          .external-content {
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 0 15px;
+
+            .img-alien {
+              .alien {
+                margin: 20px auto 0;
+                display: block;
+                width: 200px;
+              }
+            }
+
+            .external {
+              padding: 50px 0 80px 0;
+            }
+          }
+
+          .expertise-content {
+            padding: 0 15px;
+
+            .img-saturn {
+              .saturn {
+                width: 80%;
+                margin: 0 auto;
+                display: block;
+              }
+            }
+
+            .expertise {
+              padding: 0;
+              margin-top: 30px;
+            }
+          }
+
+          .english-content {
+            display: flex;
+            flex-flow: column-reverse;
+            padding: 0 15px;
+
+            .station {
+              width: 70%;
+              margin: 0 auto;
+              display: block;
+            }
+
+            .english {
+              padding: 0;
+              margin-top: 30px;
+            }
+          }
+        }
+
+        .cta-btn {
+          margin: 150px auto;
+        }
+      }
+
+      // Who We Are Section
+      .wwa-section {
+        .wwa-content {
+          padding: 150px 15px 0;
+
+          .row {
+            .wwa-image {
+              margin: 0 auto;
+              display: block;
+            }
+          }
+        }
+      }
+
+      // Contact Section
+      .contact-section {
+
+      }
     }
 
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
     	.menu-toggle span:nth-child(4) { background-color: yellow !important; }
+
+      // Landing section
+      .landing-section {
+        padding: 0 15px;
+
+        .cta-btn {
+          padding: 15px 30px;
+        }
+        .landing-content {
+          padding-top: 200px;
+
+          h1 {
+            font-size: 80px !important;
+            line-height: 86px;
+          }
+        }
+        .landing-images {
+          .moon {
+            width: 100%;
+            margin: 0 auto;
+            top: 100px;
+          }
+        }
+      }
+
+
+      // Contact Section
+      .contact-section {
+        padding-bottom: 50px;
+
+        img.img-rocket {
+          width: 150px;
+          left: 50%;
+          top: -80px;
+        }
+
+        .contact-content {
+          .earth {
+            img.img-earth {
+              top: -100px;
+            }
+          }
+
+          .contact-links {
+            .cta-btn {
+              top: -60px;
+              padding: 15px 30px;
+              width: 250px;
+            }
+          }
+        }
+      }
+
+
+      // footer
+      footer {
+        padding: 0 15px;
+
+        .footer-content {
+          .email-cta {
+            font-size: 20px;
+          }
+
+          h5.copyright {
+            font-size: 20px;
+          }
+        }
+      }
     }
 
     /* Custom, iPhone Retina */
