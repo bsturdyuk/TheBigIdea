@@ -580,7 +580,7 @@ a.logo-home {
     .contact-page .contact-images .radar {
       width: 40%;
       position: absolute;
-      z-index: 9999;
+      z-index: 999;
       left: 30%;
       bottom: 30%; }
     .contact-page .contact-images .earth {
@@ -742,7 +742,7 @@ a.logo-home {
     .contact-page .contact-content {
       padding: 150px 12% 80px;
       display: block;
-      z-index: 9999;
+      z-index: 999;
       height: auto; }
     .contact-page .contact-images {
       height: 0; }
@@ -883,6 +883,9 @@ a.logo-home {
       top: -60px;
       padding: 15px 30px;
       width: 250px; }
+
+  .contact-page .contact-content .email-cta {
+    font-size: 18px; }
 
   footer {
     padding: 0 15px; }

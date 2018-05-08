@@ -287,7 +287,7 @@
         .contact-content {
           padding: 150px 12% 80px;
           display: block;
-          z-index: 9999;
+          z-index: 999;
           height: auto;
         }
 
@@ -535,6 +535,16 @@
               padding: 15px 30px;
               width: 250px;
             }
+          }
+        }
+      }
+
+
+      // Contact Page
+      .contact-page {
+        .contact-content {
+          .email-cta {
+            font-size: 18px;
           }
         }
       }
