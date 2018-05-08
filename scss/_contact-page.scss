@@ -1,0 +1,53 @@
+// Contact page
+
+.contact-page {
+  background: url('../img/backgrounds/contact-bg.png') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+
+  .contact-content {
+    color: $white;
+    padding: 10% 0 0 12%;
+    height: 100vh;
+
+    // Map
+    .contact-map {
+      margin: 50px 0 0 0;
+    }
+    #map {
+      width: 100%;
+      height: 300px;
+    }
+    #map .map_adresse {
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: 1px;
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      color: #333;
+    }
+    #map img{
+      max-width: 90%;
+      margin: 0 auto 20px auto;
+    }
+  }
+
+  .contact-images {
+    height: 100vh;
+
+    .radar {
+      width: 40%;
+      position: absolute;
+      z-index: 9999;
+      left: 30%;
+      bottom: 30%;
+    }
+    .earth {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+}
