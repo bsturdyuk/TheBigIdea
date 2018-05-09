@@ -873,6 +873,8 @@ a.logo-home {
 
   .contact-section {
     padding-bottom: 50px; }
+    .contact-section h2.contact-header {
+      padding: 150px 15% 0 10%; }
     .contact-section img.img-rocket {
       width: 150px;
       left: 50%;
